@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Bub Core Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <script>
+    (() => {
+      try {
+        const t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (_) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-github" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+    </symbol>
+    <symbol id="icon-download" viewBox="0 0 16 16">
+      <path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"/>
+      <path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/>
+    </symbol>
+    <symbol id="icon-theme-auto" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+    </symbol>
+    <symbol id="icon-theme-light" viewBox="0 0 16 16">
+      <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+    </symbol>
+    <symbol id="icon-theme-dark" viewBox="0 0 16 16">
+      <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="https://gamebub.net/" aria-label="Game Bub Home">
+          <svg version="1.1" viewBox="0 0 720 120" shape-rendering="crispEdges" class="logo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path class="logo-body" d="M 20,0 V 10 H 10 V 20 H 0 v 10 10 10 10 10 10 10 h 10 v 10 h 10 v 10 h 10 10 10 10 10 10 10 v -10 h 10 V 90 80 70 60 50 40 H 90 80 70 60 50 V 50 60 H 60 70 V 70 80 90 H 60 50 40 30 V 80 70 60 50 40 30 H 40 V 20 H 50 60 70 80 V 10 0 H 70 60 50 40 30 Z m 420,0 v 10 10 10 10 10 10 10 10 10 10 10 h 10 10 10 10 10 10 10 10 10 v -10 h 10 V 90 80 70 60 H 530 V 50 H 520 V 40 h 10 V 30 20 10 H 520 V 0 h -10 -10 -10 -10 -10 -10 -10 z m 200,0 v 10 10 10 10 10 10 10 10 10 10 h 10 v 10 h 10 10 10 10 10 10 v -10 h 10 V 90 80 70 60 50 H 710 V 40 H 700 V 30 H 690 680 670 V 20 10 0 H 660 650 Z M 470,20 h 10 10 10 V 30 40 H 490 480 470 V 30 Z M 120,30 v 10 h -10 v 10 10 10 10 10 10 h 10 v 10 h 10 10 10 v -10 h 10 v 10 h 10 10 10 V 100 90 80 70 60 50 H 180 V 40 H 170 V 30 h -10 -10 -10 -10 z m 90,0 v 10 h -10 v 10 10 10 10 10 10 10 h 10 10 10 V 100 90 80 70 60 h 10 v 10 10 10 h 10 10 10 V 80 70 60 h 10 v 10 10 10 10 10 h 10 10 10 V 100 90 80 70 60 50 H 300 V 40 H 290 V 30 H 280 270 V 40 H 260 V 50 H 250 V 40 H 240 V 30 h -10 -10 z m 120,0 v 10 h -10 v 10 10 10 10 10 10 h 10 v 10 h 10 10 10 10 10 10 V 100 90 H 380 370 360 350 V 80 70 h 10 10 10 10 10 V 60 50 H 390 V 40 H 380 V 30 h -10 -10 -10 -10 z m 220,0 v 10 10 10 10 10 10 h 10 v 10 h 10 v 10 h 10 10 10 10 10 v -10 h 10 V 90 80 70 60 50 40 30 H 620 610 600 V 40 50 60 70 80 90 H 590 580 V 80 70 60 50 40 30 H 570 560 Z M 140,50 h 10 10 V 60 70 80 H 150 V 90 H 140 V 80 70 60 Z m 210,0 h 10 10 v 10 h -10 -10 z m 320,0 h 10 10 V 60 70 80 90 H 680 670 V 80 70 60 Z M 470,60 h 10 10 10 10 V 70 80 90 H 500 490 480 470 V 80 70 Z" />
+            <path class="logo-shadow" d="M 40,20 V 30 H 50 60 70 80 V 20 H 70 60 50 Z m 0,10 H 30 V 40 H 40 Z M 470,20 v 10 h 10 10 10 V 20 h -10 -10 z m 50,20 v 10 h 10 V 40 Z M 140,50 v 10 h 10 10 V 50 h -10 z m 530,0 v 10 h 10 10 V 50 H 680 Z M 50,60 V 70 H 60 70 V 60 H 60 Z m 180,0 v 10 h 10 V 60 Z m 40,0 v 10 h 10 V 60 Z m 200,0 v 10 h 10 10 10 10 V 60 H 500 490 480 Z M 350,70 v 10 h 10 10 10 10 10 V 70 H 390 380 370 360 Z M 0,90 v 10 H 10 V 90 Z m 10,10 v 10 h 10 v -10 z m 10,10 v 10 H 30 40 50 60 70 80 90 V 110 H 80 70 60 50 40 30 Z m 70,0 h 10 V 100 H 90 Z M 240,90 v 10 h 10 10 10 V 90 h -10 -10 z m 310,0 v 10 h 10 V 90 Z m 10,10 v 10 h 10 v -10 z m 10,10 v 10 h 10 10 10 10 10 v -10 h -10 -10 -10 -10 z m 50,0 h 10 V 100 H 620 Z M 110,100 v 10 h 10 v -10 z m 10,10 v 10 h 10 10 10 v -10 h -10 -10 z m 30,0 h 10 v -10 h -10 z m 10,0 v 10 h 10 10 10 v -10 h -10 -10 z m 160,-10 v 10 h 10 v -10 z m 10,10 v 10 h 10 10 10 10 10 10 v -10 h -10 -10 -10 -10 -10 z m 200,-10 v 10 h 10 v -10 z m 0,10 h -10 -10 -10 -10 -10 -10 -10 -10 -10 v 10 h 10 10 10 10 10 10 10 10 10 z m 110,-10 v 10 h 10 v -10 z m 10,10 v 10 h 10 10 10 10 10 10 v -10 h -10 -10 -10 -10 -10 z m 60,0 h 10 v -10 h -10 z m -510,0 v 10 h 10 10 10 v -10 h -10 -10 z m 80,0 v 10 h 10 10 10 v -10 h -10 -10 z" />
+          </svg>
+        </a>
+        <h1>Core Directory</h1>
+      </div>
+      <nav class="top-links">
+        <a class="nav-icon-link" href="{{ github_url }}" target="_blank" rel="noopener" title="GitHub" aria-label="Game Bub Core Directory on GitHub">
+          <svg width="18" height="18" fill="currentColor" aria-hidden="true"><use href="#icon-github"/></svg>
+        </a>
+        <div class="theme-switcher">
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle color scheme"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            title="Color scheme"
+          >
+            <svg class="theme-icon" data-icon="auto" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#icon-theme-auto"/></svg>
+            <svg class="theme-icon" data-icon="light" width="16" height="16" fill="currentColor" aria-hidden="true" hidden><use href="#icon-theme-light"/></svg>
+            <svg class="theme-icon" data-icon="dark" width="16" height="16" fill="currentColor" aria-hidden="true" hidden><use href="#icon-theme-dark"/></svg>
+            <svg class="theme-caret" viewBox="0 0 12 12" width="10" height="10" fill="currentColor" aria-hidden="true">
+              <path d="M2.2 4.2a.75.75 0 0 1 1.06 0L6 6.94l2.74-2.74a.75.75 0 1 1 1.06 1.06l-3.27 3.27a.75.75 0 0 1-1.06 0L2.2 5.26a.75.75 0 0 1 0-1.06z"/>
+            </svg>
+          </button>
+          <ul id="theme-menu" class="theme-menu" role="menu" hidden>
+            <li role="none">
+              <button type="button" class="theme-option" role="menuitemradio" data-theme-value="light" aria-checked="false">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true"><use href="#icon-theme-light"/></svg>
+                <span>Light</span>
+                <span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button type="button" class="theme-option" role="menuitemradio" data-theme-value="dark" aria-checked="false">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true"><use href="#icon-theme-dark"/></svg>
+                <span>Dark</span>
+                <span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button type="button" class="theme-option" role="menuitemradio" data-theme-value="auto" aria-checked="true">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true"><use href="#icon-theme-auto"/></svg>
+                <span>Auto</span>
+                <span class="theme-check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <p class="intro">
+        Community-developed FPGA cores for Game Bub. See the <a href="{{ user_guide_url }}">user guide</a> for more information.
+      </p>
+      <div class="controls" aria-label="Filter cores">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Filter cores..."
+          autocomplete="off"
+          aria-label="Filter cores"
+        >
+        <span class="count" id="core-count" aria-live="polite">{{ cores | length }} {{ 'core' if (cores | length) == 1 else 'cores' }}</span>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="cores-table">
+        <thead>
+          <tr>
+            <th scope="col" data-sort="name" class="sortable" aria-sort="ascending"><button type="button" class="sort-btn">Core</button></th>
+            <th scope="col" data-sort="author" class="sortable"><button type="button" class="sort-btn">Author</button></th>
+            <th scope="col">Version</th>
+            <th scope="col" data-sort="date" class="sortable"><button type="button" class="sort-btn">Date</button></th>
+            <th scope="col" class="col-actions" aria-label="Links"></th>
+          </tr>
+        </thead>
+        <tbody id="cores-tbody">
+          {%- if cores %}
+            {%- for c in cores %}
+          <tr
+            data-search="{{ ([c.name, c.id, c.author, c.repo, c.description or ''] | select | join(' ')) | lower }}"
+            data-name="{{ c.name | lower }}"
+            data-author="{{ c.author | lower }}"
+            data-date="{{ c.latest.release_date or c.latest.published_at or '' }}"
+          >
+            <td class="col-core">
+              <div class="core-name">{{ c.name }}</div>
+              {%- if c.description %}
+              <div class="core-desc">{{ c.description }}</div>
+              {%- endif %}
+              <div class="core-id">{{ c.id }}</div>
+            </td>
+            <td class="col-author">{{ c.author }}</td>
+            <td class="col-version">
+              {%- if c.latest.version %}
+              <a href="{{ c.latest.release_url }}" target="_blank" rel="noopener">{{ c.latest.version }}</a>
+              {%- else %}
+              <span class="muted">—</span>
+              {%- endif %}
+            </td>
+            <td class="col-date">{{ c.latest.release_date or '—' }}</td>
+            <td class="col-actions">
+              <div class="action-group">
+                <a class="icon-btn" href="{{ c.repo_url }}" target="_blank" rel="noopener" title="View on GitHub" aria-label="View {{ c.name }} on GitHub">
+                  <svg width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#icon-github"/></svg>
+                </a>
+                <a class="icon-btn icon-btn-dl" href="{{ c.latest.download_url }}" title="Download .zip" aria-label="Download {{ c.name }} .zip">
+                  <svg width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#icon-download"/></svg>
+                </a>
+              </div>
+            </td>
+          </tr>
+            {%- endfor %}
+          <tr class="empty-row empty-filter-row" hidden><td colspan="5">No matching cores.</td></tr>
+          {%- else %}
+          <tr class="empty-row"><td colspan="5">No published cores yet.</td></tr>
+          {%- endif %}
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Last updated <time datetime="{{ generated_at }}">{{ generated_at_display }}</time></span>
+      <a href="{{ add_core_url }}">How to add a core</a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
