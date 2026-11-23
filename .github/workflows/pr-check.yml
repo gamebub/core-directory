@@ -1,0 +1,67 @@
+name: Validate Core Directory PR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Test static site build
+        run: python3 scripts/build.py --out /tmp/pr-site
+
+      - name: Validate repos.toml and dry-run added or modified repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          python3 - <<'EOF'
+          import os, subprocess, sys, tomllib
+          from pathlib import Path
+          sys.path.insert(0, "scripts")
+          import sync
+
+          new_entries = sync.load_repos(Path("repos.toml"))
+          base_ref = os.environ.get("BASE_REF") or "main"
+          base_raw = subprocess.check_output(
+              ["git", "show", f"origin/{base_ref}:repos.toml"], text=True
+          )
+          base_by_key = {
+              e["repo"].strip().lower(): {
+                  "repo": e["repo"].strip(),
+                  "assets": e.get("assets"),
+              }
+              for e in tomllib.loads(base_raw).get("repos", [])
+          }
+          changed = [
+              e["repo"]
+              for e in new_entries
+              if base_by_key.get(e["repo"].lower()) != e
+          ]
+          print(f"Validated repos.toml ({len(new_entries)} repos; {len(changed)} added or modified).")
+          if changed:
+              cmd = [sys.executable, "scripts/sync.py", "--dry-run", "--strict"]
+              for repo in changed:
+                  cmd += ["--only", repo]
+              subprocess.check_call(cmd)
+          EOF
