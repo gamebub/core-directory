@@ -1,0 +1,71 @@
+# Curated list of community-developed Game Bub core repositories.
+# Add new entries in alphabetical order by repository name.
+
+[[repos]]
+repo = "alanswx/Apple-IIgs_GameBub"
+
+[[repos]]
+repo = "alanswx/ColecoVision_GameBub"
+
+[[repos]]
+repo = "alanswx/MCR_GameBub"
+
+[[repos]]
+repo = "alanswx/Universal_GameBub"
+
+[[repos]]
+repo = "apolkosnik/3DO_GameBub"
+
+[[repos]]
+repo = "apolkosnik/Minimig_GameBub"
+
+[[repos]]
+repo = "bobbobbaobab/gamebub-mister-gba"
+
+[[repos]]
+repo = "czarroland/gamegear-bub"
+
+[[repos]]
+repo = "danifunker/MacLC_GameBub"
+
+[[repos]]
+repo = "danisla/gamebub-nes"
+
+[[repos]]
+repo = "danisla/gamebub-pico8"
+assets = [
+  '^pico8-gamebub\.zip$',
+]
+
+[[repos]]
+repo = "danisla/gamebub-snes"
+
+[[repos]]
+repo = "florin-byte/gamebub-gg"
+assets = [
+  '-rev4-.*\.zip$',
+]
+
+[[repos]]
+repo = "florin-byte/gamebub-lynx"
+assets = [
+  '-rev4-.*\.zip$',
+]
+
+[[repos]]
+repo = "HRuivo/core-chip8"
+
+[[repos]]
+repo = "neutralinsomniac/gamebub"
+
+[[repos]]
+repo = "Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub"
+
+[[repos]]
+repo = "Tsudakawa/Sega-System-1-game-bub-core-"
+
+[[repos]]
+repo = "Tsudakawa/Tecmo-Arcade-Classics-Game-bub-core-"
+
+[[repos]]
+repo = "Wenwald/gamebub-2600"

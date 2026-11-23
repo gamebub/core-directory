@@ -1,0 +1,8 @@
+user_guide_url = "https://docs.gamebub.net/user-guide/third-party-cores/"
+add_core_url = "https://docs.gamebub.net/developing-cores/packaging/#core-directory"
+github_url = "https://github.com/gamebub/core-directory"
+default_target = "gamebub_rev4"
+
+[targets]
+gamebub_rev4 = "Game Bub (Rev 4)"
+gamebub_rev2 = "Game Bub (Rev 2)"
