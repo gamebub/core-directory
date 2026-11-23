@@ -1,0 +1,680 @@
+{
+  "schema_version": 2,
+  "legacy_release_cutoff": "2026-11-23T00:00:00Z",
+  "repos": {
+    "1354828824": {
+      "repo_id": 1354828824,
+      "repo": "neutralinsomniac/gamebub",
+      "requested_repo": "neutralinsomniac/gamebub"
+    },
+    "1384154325": {
+      "repo_id": 1384154325,
+      "repo": "HRuivo/core-chip8",
+      "requested_repo": "HRuivo/core-chip8"
+    },
+    "1389873757": {
+      "repo_id": 1389873757,
+      "repo": "danisla/gamebub-nes",
+      "requested_repo": "danisla/gamebub-nes"
+    },
+    "1390016507": {
+      "repo_id": 1390016507,
+      "repo": "danisla/gamebub-snes",
+      "requested_repo": "danisla/gamebub-snes"
+    },
+    "1393612345": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "requested_repo": "danisla/gamebub-pico8"
+    },
+    "1402338035": {
+      "repo_id": 1402338035,
+      "repo": "danifunker/MacLC_GameBub",
+      "requested_repo": "danifunker/MacLC_GameBub"
+    },
+    "1409424567": {
+      "repo_id": 1409424567,
+      "repo": "Wenwald/gamebub-2600",
+      "requested_repo": "Wenwald/gamebub-2600"
+    },
+    "1415027463": {
+      "repo_id": 1415027463,
+      "repo": "alanswx/Apple-IIgs_GameBub",
+      "requested_repo": "alanswx/Apple-IIgs_GameBub"
+    },
+    "1417366167": {
+      "repo_id": 1417366167,
+      "repo": "czarroland/gamegear-bub",
+      "requested_repo": "czarroland/gamegear-bub"
+    },
+    "1417916380": {
+      "repo_id": 1417916380,
+      "repo": "alanswx/ColecoVision_GameBub",
+      "requested_repo": "alanswx/ColecoVision_GameBub"
+    },
+    "1420236296": {
+      "repo_id": 1420236296,
+      "repo": "alanswx/MCR_GameBub",
+      "requested_repo": "alanswx/MCR_GameBub"
+    },
+    "1421213255": {
+      "repo_id": 1421213255,
+      "repo": "alanswx/Universal_GameBub",
+      "requested_repo": "alanswx/Universal_GameBub"
+    },
+    "1425681651": {
+      "repo_id": 1425681651,
+      "repo": "florin-byte/gamebub-lynx",
+      "requested_repo": "florin-byte/gamebub-lynx"
+    },
+    "1426467873": {
+      "repo_id": 1426467873,
+      "repo": "florin-byte/gamebub-gg",
+      "requested_repo": "florin-byte/gamebub-gg"
+    },
+    "1429210524": {
+      "repo_id": 1429210524,
+      "repo": "Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub",
+      "requested_repo": "Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub"
+    },
+    "1440260135": {
+      "repo_id": 1440260135,
+      "repo": "Tsudakawa/Sega-System-1-game-bub-core-",
+      "requested_repo": "Tsudakawa/Sega-System-1-game-bub-core-"
+    },
+    "1447749838": {
+      "repo_id": 1447749838,
+      "repo": "apolkosnik/3DO_GameBub",
+      "requested_repo": "apolkosnik/3DO_GameBub"
+    },
+    "1448776107": {
+      "repo_id": 1448776107,
+      "repo": "Tsudakawa/Tecmo-Arcade-Classics-Game-bub-core-",
+      "requested_repo": "Tsudakawa/Tecmo-Arcade-Classics-Game-bub-core-"
+    },
+    "1457307580": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "requested_repo": "apolkosnik/Minimig_GameBub"
+    },
+    "1457723580": {
+      "repo_id": 1457723580,
+      "repo": "bobbobbaobab/gamebub-mister-gba",
+      "requested_repo": "bobbobbaobab/gamebub-mister-gba"
+    }
+  },
+  "assets": {
+    "592010120": {
+      "repo_id": 1390016507,
+      "repo": "danisla/gamebub-snes",
+      "release_id": 397488578,
+      "release_tag": "v1.0.0",
+      "release_url": "https://github.com/danisla/gamebub-snes/releases/tag/v1.0.0",
+      "published_at": "2026-09-27T03:06:44Z",
+      "allow_legacy": true,
+      "asset_id": 592010120,
+      "asset_name": "gamebub-snes-v1.0.0.zip",
+      "asset_size": 938871,
+      "asset_updated_at": "2026-09-27T03:06:43Z",
+      "download_url": "https://github.com/danisla/gamebub-snes/releases/download/v1.0.0/gamebub-snes-v1.0.0.zip",
+      "scanned_at": "2026-11-23T06:36:16Z",
+      "cores": [],
+      "warnings": [
+        "SNES/core.json: invalid metadata.id 'SNES' (must be Author.CoreName, <=32 bytes)"
+      ],
+      "asset_sha256": "2d119f063a26547d116cbe2c7ecd80a32639551e736ff0a4e9ab34d02ab5aab7"
+    },
+    "592015288": {
+      "repo_id": 1389873757,
+      "repo": "danisla/gamebub-nes",
+      "release_id": 397489574,
+      "release_tag": "v1.0.0",
+      "release_url": "https://github.com/danisla/gamebub-nes/releases/tag/v1.0.0",
+      "published_at": "2026-09-27T03:09:50Z",
+      "allow_legacy": true,
+      "asset_id": 592015288,
+      "asset_name": "gamebub-nes-v1.0.0.zip",
+      "asset_size": 819723,
+      "asset_updated_at": "2026-09-27T03:09:49Z",
+      "download_url": "https://github.com/danisla/gamebub-nes/releases/download/v1.0.0/gamebub-nes-v1.0.0.zip",
+      "scanned_at": "2026-11-23T06:36:14Z",
+      "cores": [],
+      "warnings": [
+        "NES/core.json: invalid metadata.id 'NES' (must be Author.CoreName, <=32 bytes)"
+      ],
+      "asset_sha256": "b8c855e292ed72a43c413f8cb73d87698c69b427afb701d92ae5a6087fd7f1d1"
+    },
+    "604471521": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 401462890,
+      "release_tag": "v0.6.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.6.0",
+      "published_at": "2026-10-02T00:56:44Z",
+      "allow_legacy": true,
+      "asset_id": 604471521,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 2291597,
+      "asset_updated_at": "2026-10-02T00:56:39Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.6.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-23T06:36:15Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8-Fast/core.json: invalid metadata.id 'PICO-8-Fast' (must be Author.CoreName, <=32 bytes)",
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ],
+      "asset_sha256": "eb30bdb21db72d7307b48553a2d45f38ff10c3276dfab4cbf4f1852481758e83"
+    },
+    "626372108": {
+      "repo_id": 1402338035,
+      "repo": "danifunker/MacLC_GameBub",
+      "release_id": 408396464,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/danifunker/MacLC_GameBub/releases/tag/v0.1.0",
+      "published_at": "2026-10-09T22:29:00Z",
+      "allow_legacy": true,
+      "asset_id": 626372108,
+      "asset_name": "Macintosh.HD.zip",
+      "asset_size": 6639397,
+      "asset_updated_at": "2026-10-09T22:41:34Z",
+      "download_url": "https://github.com/danifunker/MacLC_GameBub/releases/download/v0.1.0/Macintosh.HD.zip",
+      "scanned_at": "2026-11-23T06:36:12Z",
+      "cores": [],
+      "warnings": [],
+      "asset_sha256": "80eca09488b1fce2fba5f2efb89c40720954d32b64f9f45a297865d70436bf48"
+    },
+    "626372227": {
+      "repo_id": 1402338035,
+      "repo": "danifunker/MacLC_GameBub",
+      "release_id": 408396464,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/danifunker/MacLC_GameBub/releases/tag/v0.1.0",
+      "published_at": "2026-10-09T22:29:00Z",
+      "allow_legacy": true,
+      "asset_id": 626372227,
+      "asset_name": "Empty.800K.boot.from.HD.zip",
+      "asset_size": 1356,
+      "asset_updated_at": "2026-10-09T22:41:34Z",
+      "download_url": "https://github.com/danifunker/MacLC_GameBub/releases/download/v0.1.0/Empty.800K.boot.from.HD.zip",
+      "scanned_at": "2026-11-23T06:36:12Z",
+      "cores": [],
+      "warnings": [],
+      "asset_sha256": "24ff3a7409dcb7d1b6f67cc49378bfb2fc04bd2063bc416936b3b756b5a99739"
+    },
+    "626382881": {
+      "repo_id": 1402338035,
+      "repo": "danifunker/MacLC_GameBub",
+      "release_id": 408396464,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/danifunker/MacLC_GameBub/releases/tag/v0.1.0",
+      "published_at": "2026-10-09T22:29:00Z",
+      "allow_legacy": true,
+      "asset_id": 626382881,
+      "asset_name": "MacLC_GameBub_20261008.zip",
+      "asset_size": 1016539,
+      "asset_updated_at": "2026-10-09T22:46:57Z",
+      "download_url": "https://github.com/danifunker/MacLC_GameBub/releases/download/v0.1.0/MacLC_GameBub_20261008.zip",
+      "scanned_at": "2026-11-23T06:36:13Z",
+      "cores": [
+        {
+          "id": "danifunker.MacLC",
+          "name": "Macintosh LC",
+          "author": "Dani Sarfati",
+          "description": null,
+          "version": "0.1.0",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-3.0-or-later",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/danifunker.MacLC",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "2b4b541e8aab0a3f77e65bff11e790c85e42a038d1de10cee82df4273a586a2b"
+    },
+    "636008033": {
+      "repo_id": 1415027463,
+      "repo": "alanswx/Apple-IIgs_GameBub",
+      "release_id": 411315911,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/alanswx/Apple-IIgs_GameBub/releases/tag/v0.1.0",
+      "published_at": "2026-10-13T05:32:58Z",
+      "allow_legacy": true,
+      "asset_id": 636008033,
+      "asset_name": "AppleIIgs_GameBub_20261012.zip",
+      "asset_size": 739837,
+      "asset_updated_at": "2026-10-13T05:32:57Z",
+      "download_url": "https://github.com/alanswx/Apple-IIgs_GameBub/releases/download/v0.1.0/AppleIIgs_GameBub_20261012.zip",
+      "scanned_at": "2026-11-23T06:36:04Z",
+      "cores": [
+        {
+          "id": "alanswx.AppleIIgs",
+          "name": "Apple IIgs",
+          "author": "Alan Steremberg",
+          "description": null,
+          "version": "0.0.1",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-3.0",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/alanswx.AppleIIgs",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "def63eed6004a873c0ebe8ed2f06e8dead3309b25320e3bdb2acec07ebd03d23"
+    },
+    "638147756": {
+      "repo_id": 1417916380,
+      "repo": "alanswx/ColecoVision_GameBub",
+      "release_id": 412073505,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/tag/v0.1.0",
+      "published_at": "2026-10-13T20:17:58Z",
+      "allow_legacy": true,
+      "asset_id": 638147756,
+      "asset_name": "ColecoVision_GameBub_20261013.zip",
+      "asset_size": 312038,
+      "asset_updated_at": "2026-10-13T20:17:57Z",
+      "download_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/download/v0.1.0/ColecoVision_GameBub_20261013.zip",
+      "scanned_at": "2026-11-23T06:36:05Z",
+      "cores": [
+        {
+          "id": "alanswx.ColecoVision",
+          "name": "ColecoVision",
+          "author": "Alan Steremberg",
+          "description": null,
+          "version": "0.1.0",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-3.0",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/alanswx.ColecoVision",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "77e800e794b23563ca06ec8e4ae49beeec7351f3dab50d807fe0b347e6122e0a"
+    },
+    "644108649": {
+      "repo_id": 1420236296,
+      "repo": "alanswx/MCR_GameBub",
+      "release_id": 413903577,
+      "release_tag": "v0.6.0",
+      "release_url": "https://github.com/alanswx/MCR_GameBub/releases/tag/v0.6.0",
+      "published_at": "2026-10-15T14:22:37Z",
+      "allow_legacy": true,
+      "asset_id": 644108649,
+      "asset_name": "MCR_GameBub_v0.6.0.zip",
+      "asset_size": 795764,
+      "asset_updated_at": "2026-10-15T14:22:35Z",
+      "download_url": "https://github.com/alanswx/MCR_GameBub/releases/download/v0.6.0/MCR_GameBub_v0.6.0.zip",
+      "scanned_at": "2026-11-23T06:36:06Z",
+      "cores": [
+        {
+          "id": "alanswx.MCR",
+          "name": "Bally Midway MCR",
+          "author": "Alan Steremberg",
+          "description": null,
+          "version": "0.6.0",
+          "release_date": null,
+          "url": null,
+          "license": "See source notices",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/alanswx.MCR",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "04638267f7f02ba8fa8b81660b8a328bf9f29e7265ec65b71a7a91467228194d"
+    },
+    "734564967": {
+      "repo_id": 1429210524,
+      "repo": "Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub",
+      "release_id": 441347768,
+      "release_tag": "v1.0.2",
+      "release_url": "https://github.com/Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub/releases/tag/v1.0.2",
+      "published_at": "2026-11-11T07:38:19Z",
+      "allow_legacy": true,
+      "asset_id": 734564967,
+      "asset_name": "Gamebub.zip",
+      "asset_size": 4471402,
+      "asset_updated_at": "2026-11-11T07:23:43Z",
+      "download_url": "https://github.com/Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub/releases/download/v1.0.2/Gamebub.zip",
+      "scanned_at": "2026-11-23T06:36:21Z",
+      "cores": [
+        {
+          "id": "ToadyM.PcEngine",
+          "name": "PC Engine",
+          "author": "MiSTer / Toady M",
+          "description": null,
+          "version": "1.0.1-sgx",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-2.0",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/ToadyM.PcEngine",
+          "zip_layout": "cores/<id>"
+        },
+        {
+          "id": "ToadyM.PcEngineCD",
+          "name": "PC Engine CD",
+          "author": "MiSTer / Toady M",
+          "description": null,
+          "version": "1.0.1",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-2.0",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/ToadyM.PcEngineCD",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "fe82ce7b7b5138a59eac91bdc59949291d64c2819f15c872aef677f7c239092f"
+    },
+    "734565268": {
+      "repo_id": 1429210524,
+      "repo": "Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub",
+      "release_id": 441347768,
+      "release_tag": "v1.0.2",
+      "release_url": "https://github.com/Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub/releases/tag/v1.0.2",
+      "published_at": "2026-11-11T07:38:19Z",
+      "allow_legacy": true,
+      "asset_id": 734565268,
+      "asset_name": "src1.0.2.zip",
+      "asset_size": 421839,
+      "asset_updated_at": "2026-11-11T07:23:46Z",
+      "download_url": "https://github.com/Tsudakawa/PcEngine-TG-16-Mister-port-for-Game-Bub/releases/download/v1.0.2/src1.0.2.zip",
+      "scanned_at": "2026-11-23T06:36:21Z",
+      "cores": [],
+      "warnings": [],
+      "asset_sha256": "fcc51575e2c16404a216d3040c42718399b7bc9172f685b16d2b36361d98b526"
+    },
+    "766175044": {
+      "repo_id": 1447749838,
+      "repo": "apolkosnik/3DO_GameBub",
+      "release_id": 448421270,
+      "release_tag": "v0.11",
+      "release_url": "https://github.com/apolkosnik/3DO_GameBub/releases/tag/v0.11",
+      "published_at": "2026-11-19T04:13:20Z",
+      "allow_legacy": true,
+      "asset_id": 766175044,
+      "asset_name": "gamebub-3do-v0.11-29bc1d3.zip",
+      "asset_size": 4395051,
+      "asset_updated_at": "2026-11-19T04:13:18Z",
+      "download_url": "https://github.com/apolkosnik/3DO_GameBub/releases/download/v0.11/gamebub-3do-v0.11-29bc1d3.zip",
+      "scanned_at": "2026-11-23T06:36:08Z",
+      "cores": [
+        {
+          "id": "apolkosnik.3DO",
+          "name": "3DO",
+          "author": "srg320, apolkosnik",
+          "description": null,
+          "version": "0.11.0",
+          "release_date": null,
+          "url": "https://github.com/apolkosnik/3DO_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamebub-3do-v0.11-29bc1d3/sdcard/cores/apolkosnik.3DO",
+          "zip_layout": "legacy"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "e93624182a97fb74ae6264acfc33d22aabf61f049175ef6e28a93c0b449eb1a7"
+    },
+    "767376916": {
+      "repo_id": 1425681651,
+      "repo": "florin-byte/gamebub-lynx",
+      "release_id": 451235191,
+      "release_tag": "v0.3.0",
+      "release_url": "https://github.com/florin-byte/gamebub-lynx/releases/tag/v0.3.0",
+      "published_at": "2026-11-19T11:13:01Z",
+      "allow_legacy": true,
+      "asset_id": 767376916,
+      "asset_name": "lynx-rev4-2026-11-19.zip",
+      "asset_size": 878431,
+      "asset_updated_at": "2026-11-19T11:12:45Z",
+      "download_url": "https://github.com/florin-byte/gamebub-lynx/releases/download/v0.3.0/lynx-rev4-2026-11-19.zip",
+      "scanned_at": "2026-11-23T06:36:18Z",
+      "cores": [
+        {
+          "id": "Retro-Bub.Lynx",
+          "name": "Atari Lynx",
+          "author": "MiSTer, Florin",
+          "description": null,
+          "version": "0.1.0",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-2.0",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "lynx-rev4-2026-11-19/sdcard/cores/Retro-Bub.Lynx",
+          "zip_layout": "legacy"
+        }
+      ],
+      "warnings": [
+        "lynx-rev4-2026-11-19/sdcard/savestate-firmware/cores/Retro-Bub.Lynx/core.json: duplicate core ID 'Retro-Bub.Lynx' in zip"
+      ],
+      "asset_sha256": "33df54a2c696e9f76aa36cbe6e02f3942b5854bdea1275020f2db52ce1078598"
+    },
+    "768183546": {
+      "repo_id": 1426467873,
+      "repo": "florin-byte/gamebub-gg",
+      "release_id": 451527132,
+      "release_tag": "v0.5.1",
+      "release_url": "https://github.com/florin-byte/gamebub-gg/releases/tag/v0.5.1",
+      "published_at": "2026-11-19T15:20:56Z",
+      "allow_legacy": true,
+      "asset_id": 768183546,
+      "asset_name": "gamegear-rev4-2026-11-19.zip",
+      "asset_size": 1169833,
+      "asset_updated_at": "2026-11-19T15:20:41Z",
+      "download_url": "https://github.com/florin-byte/gamebub-gg/releases/download/v0.5.1/gamegear-rev4-2026-11-19.zip",
+      "scanned_at": "2026-11-23T06:36:17Z",
+      "cores": [
+        {
+          "id": "Retro-Bub.GG",
+          "name": "Game Gear",
+          "author": "MiSTer, Florin",
+          "description": null,
+          "version": "0.1.0",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-3.0-only",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamegear-rev4-2026-11-19/sdcard/cores/Retro-Bub.GG",
+          "zip_layout": "legacy"
+        }
+      ],
+      "warnings": [
+        "gamegear-rev4-2026-11-19/sdcard/savestate-firmware/cores/Retro-Bub.GG/core.json: duplicate core ID 'Retro-Bub.GG' in zip"
+      ],
+      "asset_sha256": "a78ec9a7a4946375543f00241594366f759e8bd40c0255625dcb43903a215a8e"
+    },
+    "773622056": {
+      "repo_id": 1409424567,
+      "repo": "Wenwald/gamebub-2600",
+      "release_id": 453257062,
+      "release_tag": "v1.3.0",
+      "release_url": "https://github.com/Wenwald/gamebub-2600/releases/tag/v1.3.0",
+      "published_at": "2026-11-20T22:50:25Z",
+      "allow_legacy": true,
+      "asset_id": 773622056,
+      "asset_name": "Wenwald.2600-v1.3.0.zip",
+      "asset_size": 370377,
+      "asset_updated_at": "2026-11-20T22:50:25Z",
+      "download_url": "https://github.com/Wenwald/gamebub-2600/releases/download/v1.3.0/Wenwald.2600-v1.3.0.zip",
+      "scanned_at": "2026-11-23T06:36:23Z",
+      "cores": [
+        {
+          "id": "Wenwald.2600",
+          "name": "Atari 2600",
+          "author": "Wenwald (emulation: Kitrinx)",
+          "description": null,
+          "version": "1.3.0",
+          "release_date": null,
+          "url": "https://github.com/Wenwald/gamebub-2600",
+          "license": "MIT",
+          "min_firmware": "1.1.0-beta.4",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/Wenwald.2600",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "14be28120818f2de9eab13555738c0c5404e223a5f15b572902060d3be6a2ea6"
+    },
+    "774122546": {
+      "repo_id": 1457723580,
+      "repo": "bobbobbaobab/gamebub-mister-gba",
+      "release_id": 453380326,
+      "release_tag": "v0.1.2",
+      "release_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/tag/v0.1.2",
+      "published_at": "2026-11-21T02:26:27Z",
+      "allow_legacy": true,
+      "asset_id": 774122546,
+      "asset_name": "gamebub-mister-gba-v0.1.2-rev4.zip",
+      "asset_size": 849659,
+      "asset_updated_at": "2026-11-21T02:19:22Z",
+      "download_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/download/v0.1.2/gamebub-mister-gba-v0.1.2-rev4.zip",
+      "scanned_at": "2026-11-23T06:36:10Z",
+      "cores": [],
+      "warnings": [
+        "cores/Game-Bub.MisterGBA/core.json: reserved author ID 'Game-Bub' in metadata.id 'Game-Bub.MisterGBA'"
+      ],
+      "asset_sha256": "370e9d964cae74feb2931a6a927b3028965cf4d45503dcc1a6877990a5dcfc64"
+    },
+    "778437102": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "release_id": 454313586,
+      "release_tag": "v0.9.0",
+      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.9.0",
+      "published_at": "2026-11-22T08:46:21Z",
+      "allow_legacy": true,
+      "asset_id": 778437102,
+      "asset_name": "gamebub-minimig-v0.9.0-781783a.zip",
+      "asset_size": 6041338,
+      "asset_updated_at": "2026-11-22T08:46:22Z",
+      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.9.0/gamebub-minimig-v0.9.0-781783a.zip",
+      "scanned_at": "2026-11-23T06:36:09Z",
+      "cores": [
+        {
+          "id": "apolkosnik.Minimig",
+          "name": "Minimig (Amiga)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.9.0",
+          "release_date": "2026-11-22",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamebub-minimig-v0.9.0-781783a/sdcard/cores/apolkosnik.Minimig",
+          "zip_layout": "legacy"
+        },
+        {
+          "id": "apolkosnik.Minimig040",
+          "name": "Minimig (Amiga, 68040)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.3.0",
+          "release_date": "2026-11-22",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamebub-minimig-v0.9.0-781783a/sdcard/cores/apolkosnik.Minimig040",
+          "zip_layout": "legacy"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "9dfb62bbb504a171981d732aad4c62356927d498a40d5d4cd8dfbed5f062c847"
+    },
+    "780045463": {
+      "repo_id": 1354828824,
+      "repo": "neutralinsomniac/gamebub",
+      "release_id": 454659958,
+      "release_tag": "0.2.0",
+      "release_url": "https://github.com/neutralinsomniac/gamebub/releases/tag/0.2.0",
+      "published_at": "2026-11-22T18:35:40Z",
+      "allow_legacy": true,
+      "asset_id": 780045463,
+      "asset_name": "gamebub-handheld-0.2.0-snes-psx-ed0eb156.zip",
+      "asset_size": 5899513,
+      "asset_updated_at": "2026-11-22T18:33:36Z",
+      "download_url": "https://github.com/neutralinsomniac/gamebub/releases/download/0.2.0/gamebub-handheld-0.2.0-snes-psx-ed0eb156.zip",
+      "scanned_at": "2026-11-23T06:36:19Z",
+      "cores": [
+        {
+          "id": "jeremy.PSX",
+          "name": "PlayStation",
+          "author": "jeremy",
+          "description": null,
+          "version": null,
+          "release_date": null,
+          "url": null,
+          "license": null,
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamebub-handheld-0.2.0-snes-psx-ed0eb156/sdcard/cores/jeremy.PSX",
+          "zip_layout": "legacy"
+        },
+        {
+          "id": "jeremy.SNES",
+          "name": "Super Nintendo",
+          "author": "jeremy",
+          "description": null,
+          "version": null,
+          "release_date": null,
+          "url": null,
+          "license": null,
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "gamebub-handheld-0.2.0-snes-psx-ed0eb156/sdcard/cores/jeremy.SNES",
+          "zip_layout": "legacy"
+        }
+      ],
+      "warnings": [],
+      "asset_sha256": "1c3cbdc9761c01f772f50f6d5309ca95cabffb7d60cd370e156e50265b8361e9"
+    }
+  }
+}
