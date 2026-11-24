@@ -771,57 +771,6 @@
       "warnings": [],
       "asset_sha256": "9dfb62bbb504a171981d732aad4c62356927d498a40d5d4cd8dfbed5f062c847"
     },
-    "780045463": {
-      "repo_id": 1354828824,
-      "repo": "neutralinsomniac/gamebub",
-      "release_id": 454659958,
-      "release_tag": "0.2.0",
-      "release_url": "https://github.com/neutralinsomniac/gamebub/releases/tag/0.2.0",
-      "published_at": "2026-11-22T18:35:40Z",
-      "allow_legacy": true,
-      "asset_id": 780045463,
-      "asset_name": "gamebub-handheld-0.2.0-snes-psx-ed0eb156.zip",
-      "asset_size": 5899513,
-      "asset_updated_at": "2026-11-22T18:33:36Z",
-      "download_url": "https://github.com/neutralinsomniac/gamebub/releases/download/0.2.0/gamebub-handheld-0.2.0-snes-psx-ed0eb156.zip",
-      "scanned_at": "2026-11-23T06:36:19Z",
-      "cores": [
-        {
-          "id": "jeremy.PSX",
-          "name": "PlayStation",
-          "author": "jeremy",
-          "description": null,
-          "version": null,
-          "release_date": null,
-          "url": null,
-          "license": null,
-          "min_firmware": "1.1.0-beta.5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamebub-handheld-0.2.0-snes-psx-ed0eb156/sdcard/cores/jeremy.PSX",
-          "zip_layout": "legacy"
-        },
-        {
-          "id": "jeremy.SNES",
-          "name": "Super Nintendo",
-          "author": "jeremy",
-          "description": null,
-          "version": null,
-          "release_date": null,
-          "url": null,
-          "license": null,
-          "min_firmware": "1.1.0-beta.5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamebub-handheld-0.2.0-snes-psx-ed0eb156/sdcard/cores/jeremy.SNES",
-          "zip_layout": "legacy"
-        }
-      ],
-      "warnings": [],
-      "asset_sha256": "1c3cbdc9761c01f772f50f6d5309ca95cabffb7d60cd370e156e50265b8361e9"
-    },
     "785711891": {
       "repo_id": 1457307580,
       "repo": "apolkosnik/Minimig_GameBub",
@@ -872,6 +821,96 @@
             "gamebub_rev4"
           ],
           "core_path": "elipsitz.N64",
+          "zip_layout": "<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "787844460": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "release_id": 456998112,
+      "release_tag": "v0.10.0",
+      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.10.0",
+      "published_at": "2026-11-24T15:59:21Z",
+      "allow_legacy": false,
+      "asset_id": 787844460,
+      "asset_name": "gamebub-minimig-v0.10.0-70ec17e.zip",
+      "asset_size": 6056754,
+      "asset_sha256": "be933976b030600ad1ec82ff439d6e861a76fad4182225640d41739ee27ada01",
+      "asset_updated_at": "2026-11-24T15:59:22Z",
+      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.10.0/gamebub-minimig-v0.10.0-70ec17e.zip",
+      "scanned_at": "2026-11-24T17:51:22Z",
+      "cores": [],
+      "warnings": [
+        "ignored non-strict core.json path(s): gamebub-minimig-v0.10.0-70ec17e/sdcard/cores/apolkosnik.Minimig/core.json, gamebub-minimig-v0.10.0-70ec17e/sdcard/cores/apolkosnik.Minimig040/core.json"
+      ]
+    },
+    "788093148": {
+      "repo_id": 1354828824,
+      "repo": "neutralinsomniac/gamebub",
+      "release_id": 457084129,
+      "release_tag": "0.2.1",
+      "release_url": "https://github.com/neutralinsomniac/gamebub/releases/tag/0.2.1",
+      "published_at": "2026-11-24T17:10:43Z",
+      "allow_legacy": false,
+      "asset_id": 788093148,
+      "asset_name": "jeremy.PSX-0.2.1.zip",
+      "asset_size": 1467277,
+      "asset_sha256": "6e079457441770f50c15d90ab760ca0aabdb4592f6dffbf84ec5d1104e5f46f2",
+      "asset_updated_at": "2026-11-24T17:10:34Z",
+      "download_url": "https://github.com/neutralinsomniac/gamebub/releases/download/0.2.1/jeremy.PSX-0.2.1.zip",
+      "scanned_at": "2026-11-24T17:51:34Z",
+      "cores": [
+        {
+          "id": "jeremy.PSX",
+          "name": "PlayStation",
+          "author": "jeremy",
+          "description": "MiSTer PlayStation port with on-demand disc streaming, memory cards, save states, CRT filter, and dock support",
+          "version": "0.2.1",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-2.0-only",
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "jeremy.PSX",
+          "zip_layout": "<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "788093161": {
+      "repo_id": 1354828824,
+      "repo": "neutralinsomniac/gamebub",
+      "release_id": 457084129,
+      "release_tag": "0.2.1",
+      "release_url": "https://github.com/neutralinsomniac/gamebub/releases/tag/0.2.1",
+      "published_at": "2026-11-24T17:10:43Z",
+      "allow_legacy": false,
+      "asset_id": 788093161,
+      "asset_name": "jeremy.SNES-0.2.1.zip",
+      "asset_size": 1516571,
+      "asset_sha256": "2be455979a9826bac40f8202aeebfbe881955ab427aebd3e0592e71009639488",
+      "asset_updated_at": "2026-11-24T17:10:35Z",
+      "download_url": "https://github.com/neutralinsomniac/gamebub/releases/download/0.2.1/jeremy.SNES-0.2.1.zip",
+      "scanned_at": "2026-11-24T17:51:35Z",
+      "cores": [
+        {
+          "id": "jeremy.SNES",
+          "name": "Super Nintendo",
+          "author": "jeremy",
+          "description": "MiSTer SNES port with Super FX, SA-1, CX4, DSP-1/2/3/4, S-DD1, save states, and CRT filter",
+          "version": "0.2.1",
+          "release_date": null,
+          "url": null,
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "jeremy.SNES",
           "zip_layout": "<id>"
         }
       ],
