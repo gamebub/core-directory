@@ -144,6 +144,107 @@
       ],
       "asset_sha256": "b8c855e292ed72a43c413f8cb73d87698c69b427afb701d92ae5a6087fd7f1d1"
     },
+    "596132207": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 398525018,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.1.0",
+      "published_at": "2026-09-28T18:42:04Z",
+      "allow_legacy": true,
+      "asset_id": 596132207,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 955556,
+      "asset_sha256": "3736a3ac30622d65f953d427f52ad73293f12efa5d4e3f923f350c37da0d9572",
+      "asset_updated_at": "2026-09-28T18:42:03Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.1.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-24T07:00:57Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ]
+    },
+    "596564069": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 398675208,
+      "release_tag": "v0.2.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.2.0",
+      "published_at": "2026-09-28T22:27:21Z",
+      "allow_legacy": true,
+      "asset_id": 596564069,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 1923700,
+      "asset_sha256": "94a98e48bc47fad6c4295666f356cc3e21d5fda565ce2c4f72f904e393a70ab2",
+      "asset_updated_at": "2026-09-28T22:27:18Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.2.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-24T07:00:56Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8-Fast/core.json: invalid metadata.id 'PICO-8-Fast' (must be Author.CoreName, <=32 bytes)",
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ]
+    },
+    "596773105": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 398727640,
+      "release_tag": "v0.3.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.3.0",
+      "published_at": "2026-09-29T00:25:49Z",
+      "allow_legacy": true,
+      "asset_id": 596773105,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 1107604,
+      "asset_sha256": "d185a7d0385c9c2dcb07cab5105ff57a0e832e70365f0fd9441a13c7661d4c97",
+      "asset_updated_at": "2026-09-29T00:25:45Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.3.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-24T07:00:56Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ]
+    },
+    "601987305": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 400504342,
+      "release_tag": "v0.4.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.4.0",
+      "published_at": "2026-09-30T23:17:12Z",
+      "allow_legacy": true,
+      "asset_id": 601987305,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 1122382,
+      "asset_sha256": "69fbf31867bfd6903a99d22d3f72fab735c0c712deb352439c77432f4ffbf3fd",
+      "asset_updated_at": "2026-09-30T23:17:08Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.4.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-24T07:00:56Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ]
+    },
+    "604198470": {
+      "repo_id": 1393612345,
+      "repo": "danisla/gamebub-pico8",
+      "release_id": 401380490,
+      "release_tag": "v0.5.0",
+      "release_url": "https://github.com/danisla/gamebub-pico8/releases/tag/v0.5.0",
+      "published_at": "2026-10-01T21:46:52Z",
+      "allow_legacy": true,
+      "asset_id": 604198470,
+      "asset_name": "pico8-gamebub.zip",
+      "asset_size": 1160677,
+      "asset_sha256": "391eda0e62770af9bac1ff8365cd8ef0f50fbb60649e3ef0096388996498cb3d",
+      "asset_updated_at": "2026-10-01T21:46:48Z",
+      "download_url": "https://github.com/danisla/gamebub-pico8/releases/download/v0.5.0/pico8-gamebub.zip",
+      "scanned_at": "2026-11-24T07:00:56Z",
+      "cores": [],
+      "warnings": [
+        "cores/PICO-8/core.json: invalid metadata.id 'PICO-8' (must be Author.CoreName, <=32 bytes)"
+      ]
+    },
     "604471521": {
       "repo_id": 1393612345,
       "repo": "danisla/gamebub-pico8",
@@ -410,6 +511,46 @@
       "warnings": [],
       "asset_sha256": "fcc51575e2c16404a216d3040c42718399b7bc9172f685b16d2b36361d98b526"
     },
+    "747400648": {
+      "repo_id": 1457723580,
+      "repo": "bobbobbaobab/gamebub-mister-gba",
+      "release_id": 445275878,
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/tag/v0.1.0",
+      "published_at": "2026-11-14T12:19:59Z",
+      "allow_legacy": true,
+      "asset_id": 747400648,
+      "asset_name": "gamebub-mister-gba-v0.1.0-rev4.zip",
+      "asset_size": 837237,
+      "asset_sha256": "dbf682d1a3f453aaa675f882de706844a209bed78e13dd9272cc301a8c88b797",
+      "asset_updated_at": "2026-11-14T12:19:58Z",
+      "download_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/download/v0.1.0/gamebub-mister-gba-v0.1.0-rev4.zip",
+      "scanned_at": "2026-11-24T07:00:53Z",
+      "cores": [],
+      "warnings": [
+        "cores/Game-Bub.MisterGBA/core.json: reserved author ID 'Game-Bub' in metadata.id 'Game-Bub.MisterGBA'"
+      ]
+    },
+    "748187803": {
+      "repo_id": 1457723580,
+      "repo": "bobbobbaobab/gamebub-mister-gba",
+      "release_id": 445457023,
+      "release_tag": "v0.1.1",
+      "release_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/tag/v0.1.1",
+      "published_at": "2026-11-14T17:12:03Z",
+      "allow_legacy": true,
+      "asset_id": 748187803,
+      "asset_name": "gamebub-mister-gba-v0.1.1-rev4.zip",
+      "asset_size": 866636,
+      "asset_sha256": "9efdf8ecec63d37215bac4ff72b1fa12c9ee65c3c8deb981d12dbfe575058e83",
+      "asset_updated_at": "2026-11-14T17:12:02Z",
+      "download_url": "https://github.com/bobbobbaobab/gamebub-mister-gba/releases/download/v0.1.1/gamebub-mister-gba-v0.1.1-rev4.zip",
+      "scanned_at": "2026-11-24T07:00:52Z",
+      "cores": [],
+      "warnings": [
+        "cores/Game-Bub.MisterGBA/core.json: reserved author ID 'Game-Bub' in metadata.id 'Game-Bub.MisterGBA'"
+      ]
+    },
     "766175044": {
       "repo_id": 1447749838,
       "repo": "apolkosnik/3DO_GameBub",
@@ -675,6 +816,26 @@
       ],
       "warnings": [],
       "asset_sha256": "1c3cbdc9761c01f772f50f6d5309ca95cabffb7d60cd370e156e50265b8361e9"
+    },
+    "785711891": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "release_id": 456312627,
+      "release_tag": "v0.9.1",
+      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.9.1",
+      "published_at": "2026-11-24T04:37:42Z",
+      "allow_legacy": false,
+      "asset_id": 785711891,
+      "asset_name": "gamebub-minimig-v0.9.1-b5a4dec.zip",
+      "asset_size": 6026550,
+      "asset_sha256": "40d57d25d41624ce2a9105d386b2d1347c28417212e38e041b87bd4bf0003bdd",
+      "asset_updated_at": "2026-11-24T04:37:44Z",
+      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.9.1/gamebub-minimig-v0.9.1-b5a4dec.zip",
+      "scanned_at": "2026-11-24T07:00:52Z",
+      "cores": [],
+      "warnings": [
+        "ignored non-strict core.json path(s): gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig/core.json, gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig040/core.json"
+      ]
     }
   }
 }
