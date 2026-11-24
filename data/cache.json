@@ -101,6 +101,11 @@
       "repo_id": 1457723580,
       "repo": "bobbobbaobab/gamebub-mister-gba",
       "requested_repo": "bobbobbaobab/gamebub-mister-gba"
+    },
+    "1469188581": {
+      "repo_id": 1469188581,
+      "repo": "elipsitz/n64-gamebub",
+      "requested_repo": "elipsitz/n64-gamebub"
     }
   },
   "assets": {
@@ -836,6 +841,41 @@
       "warnings": [
         "ignored non-strict core.json path(s): gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig/core.json, gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig040/core.json"
       ]
+    },
+    "786095372": {
+      "repo_id": 1469188581,
+      "repo": "elipsitz/n64-gamebub",
+      "release_id": 456410337,
+      "release_tag": "v0.3.0",
+      "release_url": "https://github.com/elipsitz/n64-gamebub/releases/tag/v0.3.0",
+      "published_at": "2026-11-24T07:05:14Z",
+      "allow_legacy": false,
+      "asset_id": 786095372,
+      "asset_name": "elipsitz.N64-v0.3.0.zip",
+      "asset_size": 1177830,
+      "asset_sha256": "12bb901a0b66553c49d25ec285f0754e2193dad314b9f41f18e83f55edaacd51",
+      "asset_updated_at": "2026-11-24T07:05:00Z",
+      "download_url": "https://github.com/elipsitz/n64-gamebub/releases/download/v0.3.0/elipsitz.N64-v0.3.0.zip",
+      "scanned_at": "2026-11-24T07:47:46Z",
+      "cores": [
+        {
+          "id": "elipsitz.N64",
+          "name": "Nintendo 64 (MIRLO64)",
+          "author": "tortugaveloz, elipsitz",
+          "description": "Nintendo 64 core based on MIRLO64 v1.0",
+          "version": "0.3.0",
+          "release_date": "2026-11-23",
+          "url": "https://github.com/elipsitz/n64-game-bub",
+          "license": "Apache-2.0",
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "elipsitz.N64",
+          "zip_layout": "<id>"
+        }
+      ],
+      "warnings": []
     }
   }
 }
