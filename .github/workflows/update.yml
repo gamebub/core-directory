@@ -2,7 +2,7 @@ name: Update and Deploy Core Directory
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '14,44 * * * *'
   push:
     branches:
       - main
