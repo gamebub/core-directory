@@ -875,6 +875,46 @@
         }
       ],
       "warnings": []
+    },
+    "790949097": {
+      "repo_id": 1426467873,
+      "repo": "florin-byte/gamebub-gg",
+      "release_id": 457907940,
+      "release_tag": "v0.5.2",
+      "release_url": "https://github.com/florin-byte/gamebub-gg/releases/tag/v0.5.2",
+      "published_at": "2026-11-25T09:44:22Z",
+      "allow_legacy": false,
+      "asset_id": 790949097,
+      "asset_name": "gamegear-rev4-2026-11-25.zip",
+      "asset_size": 1183903,
+      "asset_sha256": "310c6b4bf37d3b6b909c5911f11f2722c014bd5ab63db33d06e9bc9034b01d9d",
+      "asset_updated_at": "2026-11-25T09:43:59Z",
+      "download_url": "https://github.com/florin-byte/gamebub-gg/releases/download/v0.5.2/gamegear-rev4-2026-11-25.zip",
+      "scanned_at": "2026-11-25T11:45:56Z",
+      "cores": [],
+      "warnings": [
+        "ignored non-strict core.json path(s): gamegear-rev4-2026-11-25/sdcard/cores/Retro-Bub.GG/core.json, gamegear-rev4-2026-11-25/sdcard/savestate-firmware/cores/Retro-Bub.GG/core.json"
+      ]
+    },
+    "790949456": {
+      "repo_id": 1425681651,
+      "repo": "florin-byte/gamebub-lynx",
+      "release_id": 457908109,
+      "release_tag": "v0.3.1",
+      "release_url": "https://github.com/florin-byte/gamebub-lynx/releases/tag/v0.3.1",
+      "published_at": "2026-11-25T09:44:24Z",
+      "allow_legacy": false,
+      "asset_id": 790949456,
+      "asset_name": "lynx-rev4-2026-11-25.zip",
+      "asset_size": 891607,
+      "asset_sha256": "9dd832948fe51ee0883fc8b7feaa7cb88aacd250089527331e5223f17e86466b",
+      "asset_updated_at": "2026-11-25T09:44:07Z",
+      "download_url": "https://github.com/florin-byte/gamebub-lynx/releases/download/v0.3.1/lynx-rev4-2026-11-25.zip",
+      "scanned_at": "2026-11-25T11:45:57Z",
+      "cores": [],
+      "warnings": [
+        "ignored non-strict core.json path(s): lynx-rev4-2026-11-25/sdcard/cores/Retro-Bub.Lynx/core.json, lynx-rev4-2026-11-25/sdcard/savestate-firmware/cores/Retro-Bub.Lynx/core.json"
+      ]
     }
   }
 }
