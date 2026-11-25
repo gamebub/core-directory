@@ -556,41 +556,6 @@
         "cores/Game-Bub.MisterGBA/core.json: reserved author ID 'Game-Bub' in metadata.id 'Game-Bub.MisterGBA'"
       ]
     },
-    "766175044": {
-      "repo_id": 1447749838,
-      "repo": "apolkosnik/3DO_GameBub",
-      "release_id": 448421270,
-      "release_tag": "v0.11",
-      "release_url": "https://github.com/apolkosnik/3DO_GameBub/releases/tag/v0.11",
-      "published_at": "2026-11-19T04:13:20Z",
-      "allow_legacy": true,
-      "asset_id": 766175044,
-      "asset_name": "gamebub-3do-v0.11-29bc1d3.zip",
-      "asset_size": 4395051,
-      "asset_updated_at": "2026-11-19T04:13:18Z",
-      "download_url": "https://github.com/apolkosnik/3DO_GameBub/releases/download/v0.11/gamebub-3do-v0.11-29bc1d3.zip",
-      "scanned_at": "2026-11-23T06:36:08Z",
-      "cores": [
-        {
-          "id": "apolkosnik.3DO",
-          "name": "3DO",
-          "author": "srg320, apolkosnik",
-          "description": null,
-          "version": "0.11.0",
-          "release_date": null,
-          "url": "https://github.com/apolkosnik/3DO_GameBub",
-          "license": "GPL-3.0-or-later",
-          "min_firmware": null,
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamebub-3do-v0.11-29bc1d3/sdcard/cores/apolkosnik.3DO",
-          "zip_layout": "legacy"
-        }
-      ],
-      "warnings": [],
-      "asset_sha256": "e93624182a97fb74ae6264acfc33d22aabf61f049175ef6e28a93c0b449eb1a7"
-    },
     "767376916": {
       "repo_id": 1425681651,
       "repo": "florin-byte/gamebub-lynx",
@@ -720,77 +685,6 @@
       ],
       "asset_sha256": "370e9d964cae74feb2931a6a927b3028965cf4d45503dcc1a6877990a5dcfc64"
     },
-    "778437102": {
-      "repo_id": 1457307580,
-      "repo": "apolkosnik/Minimig_GameBub",
-      "release_id": 454313586,
-      "release_tag": "v0.9.0",
-      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.9.0",
-      "published_at": "2026-11-22T08:46:21Z",
-      "allow_legacy": true,
-      "asset_id": 778437102,
-      "asset_name": "gamebub-minimig-v0.9.0-781783a.zip",
-      "asset_size": 6041338,
-      "asset_updated_at": "2026-11-22T08:46:22Z",
-      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.9.0/gamebub-minimig-v0.9.0-781783a.zip",
-      "scanned_at": "2026-11-23T06:36:09Z",
-      "cores": [
-        {
-          "id": "apolkosnik.Minimig",
-          "name": "Minimig (Amiga)",
-          "author": "Minimig team, apolkosnik",
-          "description": null,
-          "version": "0.9.0",
-          "release_date": "2026-11-22",
-          "url": "https://github.com/apolkosnik/Minimig_GameBub",
-          "license": "GPL-3.0-or-later",
-          "min_firmware": "1.1.0-beta5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamebub-minimig-v0.9.0-781783a/sdcard/cores/apolkosnik.Minimig",
-          "zip_layout": "legacy"
-        },
-        {
-          "id": "apolkosnik.Minimig040",
-          "name": "Minimig (Amiga, 68040)",
-          "author": "Minimig team, apolkosnik",
-          "description": null,
-          "version": "0.3.0",
-          "release_date": "2026-11-22",
-          "url": "https://github.com/apolkosnik/Minimig_GameBub",
-          "license": "GPL-3.0-or-later",
-          "min_firmware": "1.1.0-beta5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamebub-minimig-v0.9.0-781783a/sdcard/cores/apolkosnik.Minimig040",
-          "zip_layout": "legacy"
-        }
-      ],
-      "warnings": [],
-      "asset_sha256": "9dfb62bbb504a171981d732aad4c62356927d498a40d5d4cd8dfbed5f062c847"
-    },
-    "785711891": {
-      "repo_id": 1457307580,
-      "repo": "apolkosnik/Minimig_GameBub",
-      "release_id": 456312627,
-      "release_tag": "v0.9.1",
-      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.9.1",
-      "published_at": "2026-11-24T04:37:42Z",
-      "allow_legacy": false,
-      "asset_id": 785711891,
-      "asset_name": "gamebub-minimig-v0.9.1-b5a4dec.zip",
-      "asset_size": 6026550,
-      "asset_sha256": "40d57d25d41624ce2a9105d386b2d1347c28417212e38e041b87bd4bf0003bdd",
-      "asset_updated_at": "2026-11-24T04:37:44Z",
-      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.9.1/gamebub-minimig-v0.9.1-b5a4dec.zip",
-      "scanned_at": "2026-11-24T07:00:52Z",
-      "cores": [],
-      "warnings": [
-        "ignored non-strict core.json path(s): gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig/core.json, gamebub-minimig-v0.9.1-b5a4dec/sdcard/cores/apolkosnik.Minimig040/core.json"
-      ]
-    },
     "786095372": {
       "repo_id": 1469188581,
       "repo": "elipsitz/n64-gamebub",
@@ -825,26 +719,6 @@
         }
       ],
       "warnings": []
-    },
-    "787844460": {
-      "repo_id": 1457307580,
-      "repo": "apolkosnik/Minimig_GameBub",
-      "release_id": 456998112,
-      "release_tag": "v0.10.0",
-      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.10.0",
-      "published_at": "2026-11-24T15:59:21Z",
-      "allow_legacy": false,
-      "asset_id": 787844460,
-      "asset_name": "gamebub-minimig-v0.10.0-70ec17e.zip",
-      "asset_size": 6056754,
-      "asset_sha256": "be933976b030600ad1ec82ff439d6e861a76fad4182225640d41739ee27ada01",
-      "asset_updated_at": "2026-11-24T15:59:22Z",
-      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.10.0/gamebub-minimig-v0.10.0-70ec17e.zip",
-      "scanned_at": "2026-11-24T17:51:22Z",
-      "cores": [],
-      "warnings": [
-        "ignored non-strict core.json path(s): gamebub-minimig-v0.10.0-70ec17e/sdcard/cores/apolkosnik.Minimig/core.json, gamebub-minimig-v0.10.0-70ec17e/sdcard/cores/apolkosnik.Minimig040/core.json"
-      ]
     },
     "788093148": {
       "repo_id": 1354828824,
@@ -912,6 +786,92 @@
           ],
           "core_path": "jeremy.SNES",
           "zip_layout": "<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "788623764": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "release_id": 456998112,
+      "release_tag": "v0.10.0",
+      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.10.0",
+      "published_at": "2026-11-24T15:59:21Z",
+      "allow_legacy": false,
+      "asset_id": 788623764,
+      "asset_name": "gamebub-minimig-v0.10.0-70ec17e.zip",
+      "asset_size": 6055862,
+      "asset_sha256": "3ce536001aa318a47f23f04cfbb9f21b2c51e30e39e2249c79591ffacb5cc9e1",
+      "asset_updated_at": "2026-11-24T19:53:07Z",
+      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.10.0/gamebub-minimig-v0.10.0-70ec17e.zip",
+      "scanned_at": "2026-11-25T02:31:57Z",
+      "cores": [
+        {
+          "id": "apolkosnik.Minimig",
+          "name": "Minimig (Amiga)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.10.0",
+          "release_date": "2026-11-24",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/apolkosnik.Minimig",
+          "zip_layout": "cores/<id>"
+        },
+        {
+          "id": "apolkosnik.Minimig040",
+          "name": "Minimig (Amiga, 68040)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.4.0",
+          "release_date": "2026-11-24",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/apolkosnik.Minimig040",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "788641850": {
+      "repo_id": 1447749838,
+      "repo": "apolkosnik/3DO_GameBub",
+      "release_id": 448421270,
+      "release_tag": "v0.11",
+      "release_url": "https://github.com/apolkosnik/3DO_GameBub/releases/tag/v0.11",
+      "published_at": "2026-11-19T04:13:20Z",
+      "allow_legacy": true,
+      "asset_id": 788641850,
+      "asset_name": "gamebub-3do-v0.11-29bc1d3.zip",
+      "asset_size": 4394568,
+      "asset_sha256": "6babaae65964a54a76be8e28eb7d62dcf5109f37b5974183f746318d993318b9",
+      "asset_updated_at": "2026-11-24T19:58:31Z",
+      "download_url": "https://github.com/apolkosnik/3DO_GameBub/releases/download/v0.11/gamebub-3do-v0.11-29bc1d3.zip",
+      "scanned_at": "2026-11-25T02:31:55Z",
+      "cores": [
+        {
+          "id": "apolkosnik.3DO",
+          "name": "3DO",
+          "author": "srg320, apolkosnik",
+          "description": null,
+          "version": "0.11.0",
+          "release_date": null,
+          "url": "https://github.com/apolkosnik/3DO_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": null,
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/apolkosnik.3DO",
+          "zip_layout": "cores/<id>"
         }
       ],
       "warnings": []
