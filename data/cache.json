@@ -556,80 +556,6 @@
         "cores/Game-Bub.MisterGBA/core.json: reserved author ID 'Game-Bub' in metadata.id 'Game-Bub.MisterGBA'"
       ]
     },
-    "767376916": {
-      "repo_id": 1425681651,
-      "repo": "florin-byte/gamebub-lynx",
-      "release_id": 451235191,
-      "release_tag": "v0.3.0",
-      "release_url": "https://github.com/florin-byte/gamebub-lynx/releases/tag/v0.3.0",
-      "published_at": "2026-11-19T11:13:01Z",
-      "allow_legacy": true,
-      "asset_id": 767376916,
-      "asset_name": "lynx-rev4-2026-11-19.zip",
-      "asset_size": 878431,
-      "asset_updated_at": "2026-11-19T11:12:45Z",
-      "download_url": "https://github.com/florin-byte/gamebub-lynx/releases/download/v0.3.0/lynx-rev4-2026-11-19.zip",
-      "scanned_at": "2026-11-23T06:36:18Z",
-      "cores": [
-        {
-          "id": "Retro-Bub.Lynx",
-          "name": "Atari Lynx",
-          "author": "MiSTer, Florin",
-          "description": null,
-          "version": "0.1.0",
-          "release_date": null,
-          "url": null,
-          "license": "GPL-2.0",
-          "min_firmware": null,
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "lynx-rev4-2026-11-19/sdcard/cores/Retro-Bub.Lynx",
-          "zip_layout": "legacy"
-        }
-      ],
-      "warnings": [
-        "lynx-rev4-2026-11-19/sdcard/savestate-firmware/cores/Retro-Bub.Lynx/core.json: duplicate core ID 'Retro-Bub.Lynx' in zip"
-      ],
-      "asset_sha256": "33df54a2c696e9f76aa36cbe6e02f3942b5854bdea1275020f2db52ce1078598"
-    },
-    "768183546": {
-      "repo_id": 1426467873,
-      "repo": "florin-byte/gamebub-gg",
-      "release_id": 451527132,
-      "release_tag": "v0.5.1",
-      "release_url": "https://github.com/florin-byte/gamebub-gg/releases/tag/v0.5.1",
-      "published_at": "2026-11-19T15:20:56Z",
-      "allow_legacy": true,
-      "asset_id": 768183546,
-      "asset_name": "gamegear-rev4-2026-11-19.zip",
-      "asset_size": 1169833,
-      "asset_updated_at": "2026-11-19T15:20:41Z",
-      "download_url": "https://github.com/florin-byte/gamebub-gg/releases/download/v0.5.1/gamegear-rev4-2026-11-19.zip",
-      "scanned_at": "2026-11-23T06:36:17Z",
-      "cores": [
-        {
-          "id": "Retro-Bub.GG",
-          "name": "Game Gear",
-          "author": "MiSTer, Florin",
-          "description": null,
-          "version": "0.1.0",
-          "release_date": null,
-          "url": null,
-          "license": "GPL-3.0-only",
-          "min_firmware": null,
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "gamegear-rev4-2026-11-19/sdcard/cores/Retro-Bub.GG",
-          "zip_layout": "legacy"
-        }
-      ],
-      "warnings": [
-        "gamegear-rev4-2026-11-19/sdcard/savestate-firmware/cores/Retro-Bub.GG/core.json: duplicate core ID 'Retro-Bub.GG' in zip"
-      ],
-      "asset_sha256": "a78ec9a7a4946375543f00241594366f759e8bd40c0255625dcb43903a215a8e"
-    },
     "773622056": {
       "repo_id": 1409424567,
       "repo": "Wenwald/gamebub-2600",
@@ -876,45 +802,75 @@
       ],
       "warnings": []
     },
-    "790949097": {
-      "repo_id": 1426467873,
-      "repo": "florin-byte/gamebub-gg",
-      "release_id": 457907940,
-      "release_tag": "v0.5.2",
-      "release_url": "https://github.com/florin-byte/gamebub-gg/releases/tag/v0.5.2",
-      "published_at": "2026-11-25T09:44:22Z",
-      "allow_legacy": false,
-      "asset_id": 790949097,
-      "asset_name": "gamegear-rev4-2026-11-25.zip",
-      "asset_size": 1183903,
-      "asset_sha256": "310c6b4bf37d3b6b909c5911f11f2722c014bd5ab63db33d06e9bc9034b01d9d",
-      "asset_updated_at": "2026-11-25T09:43:59Z",
-      "download_url": "https://github.com/florin-byte/gamebub-gg/releases/download/v0.5.2/gamegear-rev4-2026-11-25.zip",
-      "scanned_at": "2026-11-25T11:45:56Z",
-      "cores": [],
-      "warnings": [
-        "ignored non-strict core.json path(s): gamegear-rev4-2026-11-25/sdcard/cores/Retro-Bub.GG/core.json, gamegear-rev4-2026-11-25/sdcard/savestate-firmware/cores/Retro-Bub.GG/core.json"
-      ]
-    },
-    "790949456": {
+    "792161165": {
       "repo_id": 1425681651,
       "repo": "florin-byte/gamebub-lynx",
-      "release_id": 457908109,
-      "release_tag": "v0.3.1",
-      "release_url": "https://github.com/florin-byte/gamebub-lynx/releases/tag/v0.3.1",
-      "published_at": "2026-11-25T09:44:24Z",
+      "release_id": 458329360,
+      "release_tag": "v0.3.3",
+      "release_url": "https://github.com/florin-byte/gamebub-lynx/releases/tag/v0.3.3",
+      "published_at": "2026-11-25T15:56:37Z",
       "allow_legacy": false,
-      "asset_id": 790949456,
+      "asset_id": 792161165,
       "asset_name": "lynx-rev4-2026-11-25.zip",
-      "asset_size": 891607,
-      "asset_sha256": "9dd832948fe51ee0883fc8b7feaa7cb88aacd250089527331e5223f17e86466b",
-      "asset_updated_at": "2026-11-25T09:44:07Z",
-      "download_url": "https://github.com/florin-byte/gamebub-lynx/releases/download/v0.3.1/lynx-rev4-2026-11-25.zip",
-      "scanned_at": "2026-11-25T11:45:57Z",
-      "cores": [],
-      "warnings": [
-        "ignored non-strict core.json path(s): lynx-rev4-2026-11-25/sdcard/cores/Retro-Bub.Lynx/core.json, lynx-rev4-2026-11-25/sdcard/savestate-firmware/cores/Retro-Bub.Lynx/core.json"
-      ]
+      "asset_size": 891099,
+      "asset_sha256": "07d8777885d545c1af0b696c44c252cc667c2a11934dbc9490494641813e9dbe",
+      "asset_updated_at": "2026-11-25T15:56:05Z",
+      "download_url": "https://github.com/florin-byte/gamebub-lynx/releases/download/v0.3.3/lynx-rev4-2026-11-25.zip",
+      "scanned_at": "2026-11-25T21:44:18Z",
+      "cores": [
+        {
+          "id": "Retro-Bub.Lynx",
+          "name": "Atari Lynx",
+          "author": "MiSTer, Florin",
+          "description": "MiSTer Atari Lynx port with save states, CPU/GPU Turbo, Rewind and screen rotation",
+          "version": "0.3.3",
+          "release_date": "2026-11-25",
+          "url": null,
+          "license": "GPL-2.0",
+          "min_firmware": "1.0.3",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/Retro-Bub.Lynx",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "792186613": {
+      "repo_id": 1426467873,
+      "repo": "florin-byte/gamebub-gg",
+      "release_id": 458336080,
+      "release_tag": "v0.5.4",
+      "release_url": "https://github.com/florin-byte/gamebub-gg/releases/tag/v0.5.4",
+      "published_at": "2026-11-25T16:09:49Z",
+      "allow_legacy": false,
+      "asset_id": 792186613,
+      "asset_name": "gamegear-rev4-2026-11-25.zip",
+      "asset_size": 1183351,
+      "asset_sha256": "96e4a771c34ee864a9f622980e6b2d742befa9273ad4c68f0365f6cd859f24f5",
+      "asset_updated_at": "2026-11-25T16:07:11Z",
+      "download_url": "https://github.com/florin-byte/gamebub-gg/releases/download/v0.5.4/gamegear-rev4-2026-11-25.zip",
+      "scanned_at": "2026-11-25T21:44:17Z",
+      "cores": [
+        {
+          "id": "Retro-Bub.GG",
+          "name": "Game Gear",
+          "author": "MiSTer, Florin",
+          "description": "MiSTer Game Gear port with save states, Z80 Turbo, Extended Resolution, Integer and Nearest scaling, and Game Gear / Master System colors",
+          "version": "0.5.4",
+          "release_date": "2026-11-25",
+          "url": null,
+          "license": "GPL-3.0-only",
+          "min_firmware": "1.0.3",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/Retro-Bub.GG",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": []
     }
   }
 }
