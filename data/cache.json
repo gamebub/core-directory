@@ -716,57 +716,6 @@
       ],
       "warnings": []
     },
-    "788623764": {
-      "repo_id": 1457307580,
-      "repo": "apolkosnik/Minimig_GameBub",
-      "release_id": 456998112,
-      "release_tag": "v0.10.0",
-      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.10.0",
-      "published_at": "2026-11-24T15:59:21Z",
-      "allow_legacy": false,
-      "asset_id": 788623764,
-      "asset_name": "gamebub-minimig-v0.10.0-70ec17e.zip",
-      "asset_size": 6055862,
-      "asset_sha256": "3ce536001aa318a47f23f04cfbb9f21b2c51e30e39e2249c79591ffacb5cc9e1",
-      "asset_updated_at": "2026-11-24T19:53:07Z",
-      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.10.0/gamebub-minimig-v0.10.0-70ec17e.zip",
-      "scanned_at": "2026-11-25T02:31:57Z",
-      "cores": [
-        {
-          "id": "apolkosnik.Minimig",
-          "name": "Minimig (Amiga)",
-          "author": "Minimig team, apolkosnik",
-          "description": null,
-          "version": "0.10.0",
-          "release_date": "2026-11-24",
-          "url": "https://github.com/apolkosnik/Minimig_GameBub",
-          "license": "GPL-3.0-or-later",
-          "min_firmware": "1.1.0-beta5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "cores/apolkosnik.Minimig",
-          "zip_layout": "cores/<id>"
-        },
-        {
-          "id": "apolkosnik.Minimig040",
-          "name": "Minimig (Amiga, 68040)",
-          "author": "Minimig team, apolkosnik",
-          "description": null,
-          "version": "0.4.0",
-          "release_date": "2026-11-24",
-          "url": "https://github.com/apolkosnik/Minimig_GameBub",
-          "license": "GPL-3.0-or-later",
-          "min_firmware": "1.1.0-beta5",
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "cores/apolkosnik.Minimig040",
-          "zip_layout": "cores/<id>"
-        }
-      ],
-      "warnings": []
-    },
     "788641850": {
       "repo_id": 1447749838,
       "repo": "apolkosnik/3DO_GameBub",
@@ -867,6 +816,57 @@
             "gamebub_rev4"
           ],
           "core_path": "cores/Retro-Bub.GG",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "801910324": {
+      "repo_id": 1457307580,
+      "repo": "apolkosnik/Minimig_GameBub",
+      "release_id": 461026858,
+      "release_tag": "v0.11.0",
+      "release_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/tag/v0.11.0",
+      "published_at": "2026-11-27T20:15:44Z",
+      "allow_legacy": false,
+      "asset_id": 801910324,
+      "asset_name": "gamebub-minimig-v0.11.0-b59d478.zip",
+      "asset_size": 6016350,
+      "asset_sha256": "eb9526629d9fff391d6f519da67f04e0bbbb37e5a22189ff5774fc2a6e466d4b",
+      "asset_updated_at": "2026-11-27T20:15:42Z",
+      "download_url": "https://github.com/apolkosnik/Minimig_GameBub/releases/download/v0.11.0/gamebub-minimig-v0.11.0-b59d478.zip",
+      "scanned_at": "2026-11-27T23:28:44Z",
+      "cores": [
+        {
+          "id": "apolkosnik.Minimig",
+          "name": "Minimig (Amiga)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.11.0",
+          "release_date": "2026-11-27",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/apolkosnik.Minimig",
+          "zip_layout": "cores/<id>"
+        },
+        {
+          "id": "apolkosnik.Minimig040",
+          "name": "Minimig (Amiga, 68040)",
+          "author": "Minimig team, apolkosnik",
+          "description": null,
+          "version": "0.5.0",
+          "release_date": "2026-11-27",
+          "url": "https://github.com/apolkosnik/Minimig_GameBub",
+          "license": "GPL-3.0-or-later",
+          "min_firmware": "1.1.0-beta5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/apolkosnik.Minimig040",
           "zip_layout": "cores/<id>"
         }
       ],
