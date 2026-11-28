@@ -377,41 +377,6 @@
       "warnings": [],
       "asset_sha256": "def63eed6004a873c0ebe8ed2f06e8dead3309b25320e3bdb2acec07ebd03d23"
     },
-    "638147756": {
-      "repo_id": 1417916380,
-      "repo": "alanswx/ColecoVision_GameBub",
-      "release_id": 412073505,
-      "release_tag": "v0.1.0",
-      "release_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/tag/v0.1.0",
-      "published_at": "2026-10-13T20:17:58Z",
-      "allow_legacy": true,
-      "asset_id": 638147756,
-      "asset_name": "ColecoVision_GameBub_20261013.zip",
-      "asset_size": 312038,
-      "asset_updated_at": "2026-10-13T20:17:57Z",
-      "download_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/download/v0.1.0/ColecoVision_GameBub_20261013.zip",
-      "scanned_at": "2026-11-23T06:36:05Z",
-      "cores": [
-        {
-          "id": "alanswx.ColecoVision",
-          "name": "ColecoVision",
-          "author": "Alan Steremberg",
-          "description": null,
-          "version": "0.1.0",
-          "release_date": null,
-          "url": null,
-          "license": "GPL-3.0",
-          "min_firmware": null,
-          "targets": [
-            "gamebub_rev4"
-          ],
-          "core_path": "cores/alanswx.ColecoVision",
-          "zip_layout": "cores/<id>"
-        }
-      ],
-      "warnings": [],
-      "asset_sha256": "77e800e794b23563ca06ec8e4ae49beeec7351f3dab50d807fe0b347e6122e0a"
-    },
     "644108649": {
       "repo_id": 1420236296,
       "repo": "alanswx/MCR_GameBub",
@@ -867,6 +832,41 @@
             "gamebub_rev4"
           ],
           "core_path": "cores/apolkosnik.Minimig040",
+          "zip_layout": "cores/<id>"
+        }
+      ],
+      "warnings": []
+    },
+    "803263692": {
+      "repo_id": 1417916380,
+      "repo": "alanswx/ColecoVision_GameBub",
+      "release_id": 461306498,
+      "release_tag": "v0.2.0",
+      "release_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/tag/v0.2.0",
+      "published_at": "2026-11-28T04:46:20Z",
+      "allow_legacy": false,
+      "asset_id": 803263692,
+      "asset_name": "ColecoVision_GameBub_v0.2.0.zip",
+      "asset_size": 320465,
+      "asset_sha256": "252936d3fe788fdfe72ea5443bd79d0fcf0ebab03778e8e3689869be365c1155",
+      "asset_updated_at": "2026-11-28T04:46:20Z",
+      "download_url": "https://github.com/alanswx/ColecoVision_GameBub/releases/download/v0.2.0/ColecoVision_GameBub_v0.2.0.zip",
+      "scanned_at": "2026-11-28T04:59:06Z",
+      "cores": [
+        {
+          "id": "alanswx.ColecoVision",
+          "name": "ColecoVision",
+          "author": "Alan Steremberg",
+          "description": "ColecoVision with the Super Game Module, MegaCart and Opcode cartridges, and an on-screen keypad for the controller's 12 keys. Built from the Coleco ADAM MiSTer core.",
+          "version": "0.2.0",
+          "release_date": "2026-11-27",
+          "url": "https://github.com/alanswx/ColecoVision_GameBub",
+          "license": "GPL-3.0",
+          "min_firmware": "1.1.0-beta.5",
+          "targets": [
+            "gamebub_rev4"
+          ],
+          "core_path": "cores/alanswx.ColecoVision",
           "zip_layout": "cores/<id>"
         }
       ],
